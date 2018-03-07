@@ -1,0 +1,46 @@
+Time (EST),Temp.,Windchill,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,,
+12:52 AM,44.1 °F,40.1 °F,28.0 °F,53%,29.97 in,10.0 mi,SSE,6.9 mph,  -,N/A,	 ,Mostly Cloudy
+1:52 AM,42.1 °F,38.4 °F,28.0 °F,58%,29.94 in,10.0 mi,SE,5.8 mph,  -,N/A,	 ,Overcast
+2:52 AM,44.1 °F,40.1 °F,28.9 °F,55%,29.89 in,10.0 mi,ESE,6.9 mph,  -,N/A,	 ,Overcast
+3:52 AM,45.0 °F,41.2 °F,28.9 °F,53%,29.85 in,10.0 mi,East,6.9 mph,  -,N/A,	 ,Overcast
+4:52 AM,45.0 °F,40.1 °F,30.0 °F,56%,29.82 in,10.0 mi,East,9.2 mph,  -,0.00 in,Rain,Light Rain
+5:22 AM,43.0 °F,37.7 °F,34.0 °F,71%,29.81 in,5.0 mi,ENE,9.2 mph,  -,0.01 in,Rain,Light Rain
+5:40 AM,41.0 °F,34.7 °F,34.0 °F,76%,29.80 in,2.0 mi,NE,10.4 mph,  -,0.10 in,Rain,Heavy Rain
+5:52 AM,39.9 °F,33.9 °F,35.1 °F,83%,29.81 in,1.8 mi,ENE,9.2 mph,  -,0.22 in,Rain,Heavy Rain
+5:57 AM,39.9 °F,33.4 °F,35.1 °F,83%,29.80 in,2.0 mi,NE,10.4 mph,  -,0.04 in,Rain,Heavy Rain
+6:52 AM,39.9 °F,33.4 °F,37.0 °F,89%,29.79 in,3.0 mi,ENE,10.4 mph,  -,0.28 in,Rain,Rain
+7:18 AM,39.9 °F,32.9 °F,37.0 °F,89%,29.77 in,3.0 mi,ENE,11.5 mph,  -,0.08 in,Rain,Rain
+7:52 AM,41.0 °F,34.3 °F,37.9 °F,89%,29.76 in,2.5 mi,NE,11.5 mph,  -,0.19 in,Rain,Rain
+8:00 AM,41.0 °F,34.3 °F,37.9 °F,89%,29.74 in,1.5 mi,NE,11.5 mph,  -,0.08 in,Rain,Heavy Rain
+8:38 AM,41.0 °F,33.5 °F,37.9 °F,89%,29.70 in,1.5 mi,NE,13.8 mph,  -,0.26 in,Rain,Heavy Rain
+8:41 AM,41.0 °F,33.5 °F,37.9 °F,89%,29.70 in,0.5 mi,NE,13.8 mph,  -,0.27 in,Rain,Heavy Rain
+8:52 AM,41.0 °F,33.1 °F,37.9 °F,89%,29.70 in,0.5 mi,NE,15.0 mph,  -,0.31 in,Rain,Rain
+9:05 AM,41.0 °F,31.9 °F,37.9 °F,89%,29.67 in,1.5 mi,NE,19.6 mph,  -,0.02 in,Rain,Light Rain
+9:52 AM,42.1 °F,36.1 °F,39.0 °F,89%,29.64 in,1.5 mi,North,10.4 mph,  -,0.09 in,Rain,Light Rain
+10:15 AM,42.1 °F,34.5 °F,39.0 °F,89%,29.61 in,2.0 mi,NNE,15.0 mph,21.9 mph,0.00 in,	 ,Overcast
+10:52 AM,42.1 °F,36.6 °F,39.0 °F,89%,29.66 in,2.0 mi,NNW,9.2 mph,  -,0.00 in,Rain,Light Rain
+11:11 AM,42.1 °F,35.7 °F,39.0 °F,89%,29.64 in,2.0 mi,NNW,11.5 mph,  -,0.07 in,Rain,Rain
+11:52 AM,41.0 °F,33.5 °F,39.0 °F,93%,29.64 in,2.0 mi,NNW,13.8 mph,  -,0.21 in,Rain,Heavy Rain
+11:54 AM,41.0 °F,33.9 °F,39.0 °F,93%,29.62 in,3.0 mi,NNW,12.7 mph,  -,0.00 in,Rain,Heavy Rain
+11:56 AM,41.0 °F,33.5 °F,39.0 °F,93%,29.63 in,2.0 mi,NNW,13.8 mph,  -,0.01 in,Rain,Heavy Rain
+12:00 PM,41.0 °F,33.5 °F,39.0 °F,93%,29.62 in,2.0 mi,North,13.8 mph,  -,0.04 in,Rain,Heavy Rain
+12:17 PM,42.1 °F,33.9 °F,39.0 °F,89%,29.59 in,3.0 mi,North,17.3 mph,23.0 mph,0.11 in,Rain,Rain
+12:52 PM,44.1 °F,37.7 °F,41.0 °F,89%,29.58 in,9.0 mi,NNE,12.7 mph,  -,0.14 in,Rain,Light Rain
+1:52 PM,48.0 °F,  -,44.1 °F,86%,29.57 in,10.0 mi,West,5.8 mph,  -,0.01 in,	 ,Mostly Cloudy
+1:59 PM,48.0 °F,  -,44.1 °F,86%,29.56 in,10.0 mi,WNW,5.8 mph,  -,N/A,	 ,Mostly Cloudy
+2:28 PM,48.9 °F,  -,45.0 °F,86%,29.56 in,10.0 mi,West,6.9 mph,  -,N/A,	 ,Overcast
+2:52 PM,48.9 °F,  -,45.0 °F,86%,29.58 in,10.0 mi,West,6.9 mph,  -,N/A,	 ,Overcast
+3:52 PM,50.0 °F,  -,46.0 °F,86%,29.61 in,10.0 mi,West,11.5 mph,  -,N/A,	 ,Overcast
+4:52 PM,50.0 °F,  -,46.0 °F,86%,29.63 in,10.0 mi,WSW,10.4 mph,  -,N/A,	 ,Overcast
+5:52 PM,50.0 °F,  -,46.0 °F,86%,29.65 in,10.0 mi,WSW,6.9 mph,  -,N/A,	 ,Overcast
+6:24 PM,50.0 °F,  -,46.0 °F,86%,29.65 in,10.0 mi,WSW,5.8 mph,  -,N/A,	 ,Overcast
+6:52 PM,50.0 °F,  -,46.0 °F,86%,29.67 in,8.0 mi,WSW,6.9 mph,  -,N/A,	 ,Overcast
+7:31 PM,50.0 °F,  -,46.9 °F,89%,29.67 in,2.5 mi,West,5.8 mph,  -,0.00 in,	 ,Light Drizzle
+7:52 PM,50.0 °F,  -,46.9 °F,89%,29.69 in,2.5 mi,WSW,5.8 mph,  -,0.00 in,	 ,Light Drizzle
+8:52 PM,50.0 °F,  -,48.0 °F,93%,29.71 in,2.0 mi,West,8.1 mph,  -,0.00 in,	 ,Overcast
+9:52 PM,51.1 °F,  -,48.9 °F,92%,29.72 in,2.0 mi,West,8.1 mph,  -,0.00 in,	 ,Light Drizzle
+10:23 PM,51.1 °F,  -,48.9 °F,92%,29.72 in,3.0 mi,West,10.4 mph,  -,0.00 in,	 ,Overcast
+10:52 PM,51.1 °F,  -,48.0 °F,89%,29.73 in,7.0 mi,West,9.2 mph,  -,0.00 in,	 ,Overcast
+11:42 PM,50.0 °F,  -,48.0 °F,93%,29.72 in,8.0 mi,West,8.1 mph,  -,N/A,	 ,Scattered Clouds
+11:52 PM,50.0 °F,  -,46.9 °F,89%,29.73 in,8.0 mi,West,8.1 mph,  -,N/A,	 ,Scattered Clouds

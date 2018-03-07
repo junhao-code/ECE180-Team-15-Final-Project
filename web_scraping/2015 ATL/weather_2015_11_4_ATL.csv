@@ -1,0 +1,36 @@
+Time (EST),Temp.,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,
+12:52 AM,64.0 °F,61.0 °F,90%,30.15 in,1.2 mi,East,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+1:52 AM,63.0 °F,61.0 °F,93%,30.15 in,1.2 mi,East,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+2:52 AM,63.0 °F,61.0 °F,93%,30.16 in,1.2 mi,East,8.1 mph,  -,0.00 in,	 ,Light Drizzle
+3:52 AM,63.0 °F,61.0 °F,93%,30.16 in,1.2 mi,East,8.1 mph,  -,0.00 in,	 ,Light Drizzle
+4:52 AM,63.0 °F,61.0 °F,93%,30.17 in,1.2 mi,East,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+5:10 AM,64.0 °F,61.0 °F,90%,30.18 in,1.2 mi,ENE,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+5:52 AM,63.0 °F,61.0 °F,93%,30.19 in,1.2 mi,East,9.2 mph,  -,0.00 in,Rain,Light Rain
+6:52 AM,63.0 °F,61.0 °F,93%,30.20 in,1.2 mi,East,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+7:52 AM,63.0 °F,61.0 °F,93%,30.22 in,1.2 mi,East,6.9 mph,  -,0.00 in,	 ,Light Drizzle
+8:29 AM,64.0 °F,61.0 °F,90%,30.24 in,0.5 mi,East,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+8:48 AM,64.4 °F,62.6 °F,94%,30.24 in,1.5 mi,East,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+8:52 AM,64.0 °F,61.0 °F,90%,30.23 in,1.5 mi,ENE,11.5 mph,  -,0.00 in,	 ,Light Drizzle
+8:55 AM,64.0 °F,61.0 °F,90%,30.24 in,2.5 mi,ENE,11.5 mph,  -,0.00 in,	 ,Light Drizzle
+9:24 AM,64.0 °F,61.0 °F,90%,30.25 in,6.0 mi,East,9.2 mph,  -,0.00 in,	 ,Overcast
+9:52 AM,64.9 °F,62.1 °F,90%,30.24 in,7.0 mi,East,9.2 mph,  -,0.00 in,	 ,Overcast
+10:52 AM,64.9 °F,62.1 °F,90%,30.24 in,8.0 mi,ENE,8.1 mph,  -,N/A,	 ,Overcast
+11:52 AM,66.0 °F,63.0 °F,90%,30.23 in,8.0 mi,East,8.1 mph,  -,N/A,	 ,Overcast
+12:52 PM,66.9 °F,63.0 °F,87%,30.21 in,10.0 mi,ENE,5.8 mph,  -,N/A,	 ,Overcast
+1:52 PM,68.0 °F,63.0 °F,84%,30.19 in,9.0 mi,ENE,9.2 mph,  -,N/A,	 ,Overcast
+2:52 PM,68.0 °F,64.0 °F,87%,30.19 in,10.0 mi,East,5.8 mph,  -,N/A,	 ,Overcast
+3:52 PM,68.0 °F,63.0 °F,84%,30.20 in,9.0 mi,ESE,5.8 mph,  -,N/A,	 ,Overcast
+4:52 PM,66.9 °F,63.0 °F,87%,30.21 in,7.0 mi,ESE,5.8 mph,  -,N/A,	 ,Overcast
+5:39 PM,66.0 °F,63.0 °F,90%,30.21 in,2.0 mi,East,8.1 mph,  -,0.00 in,	 ,Light Drizzle
+5:52 PM,66.0 °F,63.0 °F,90%,30.20 in,2.0 mi,East,8.1 mph,  -,0.00 in,	 ,Light Drizzle
+6:17 PM,66.0 °F,63.0 °F,90%,30.22 in,1.2 mi,East,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+6:52 PM,66.0 °F,63.0 °F,90%,30.22 in,1.2 mi,East,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+7:36 PM,66.0 °F,63.0 °F,90%,30.23 in,0.8 mi,East,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+7:52 PM,66.0 °F,63.0 °F,90%,30.22 in,0.8 mi,East,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+8:52 PM,64.9 °F,63.0 °F,93%,30.23 in,0.8 mi,East,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+8:54 PM,64.9 °F,63.0 °F,93%,30.24 in,1.2 mi,East,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+9:21 PM,64.9 °F,63.0 °F,93%,30.24 in,0.5 mi,ESE,6.9 mph,  -,0.00 in,	 ,Light Drizzle
+9:52 PM,64.9 °F,63.0 °F,93%,30.24 in,0.5 mi,East,5.8 mph,  -,0.00 in,	 ,Light Drizzle
+10:52 PM,64.9 °F,63.0 °F,93%,30.23 in,0.5 mi,East,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+11:52 PM,64.9 °F,63.0 °F,93%,30.23 in,0.5 mi,ESE,6.9 mph,  -,0.00 in,	 ,Light Drizzle

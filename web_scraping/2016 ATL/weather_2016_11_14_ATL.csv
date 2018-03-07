@@ -1,0 +1,26 @@
+Time (EST),Temp.,Windchill,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,,
+12:52 AM,45.0 °F,  -,42.1 °F,90%,30.15 in,9.0 mi,Calm,Calm,  -,N/A,	 ,Overcast
+1:52 AM,45.0 °F,42.6 °F,42.1 °F,90%,30.16 in,9.0 mi,WNW,4.6 mph,  -,N/A,	 ,Mostly Cloudy
+2:52 AM,45.0 °F,43.5 °F,42.1 °F,90%,30.13 in,10.0 mi,NNW,3.5 mph,  -,N/A,	 ,Mostly Cloudy
+3:52 AM,44.1 °F,  -,39.9 °F,85%,30.11 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Scattered Clouds
+4:52 AM,42.1 °F,40.2 °F,39.9 °F,92%,30.11 in,8.0 mi,West,3.5 mph,  -,N/A,	 ,Partly Cloudy
+5:52 AM,41.0 °F,35.8 °F,39.9 °F,96%,30.12 in,8.0 mi,NW,8.1 mph,  -,N/A,	 ,Partly Cloudy
+6:52 AM,42.1 °F,39.2 °F,39.0 °F,89%,30.12 in,10.0 mi,NW,4.6 mph,  -,N/A,	 ,Partly Cloudy
+7:52 AM,41.0 °F,36.4 °F,39.2 °F,93%,30.14 in,8.0 mi,NW,6.9 mph,  -,N/A,	 ,Partly Cloudy
+8:52 AM,46.4 °F,43.5 °F,39.2 °F,76%,30.13 in,9.0 mi,NNW,5.8 mph,  -,N/A,	 ,Scattered Clouds
+9:52 AM,50.0 °F,  -,41.0 °F,71%,30.13 in,9.0 mi,WNW,5.8 mph,  -,N/A,	 ,Mostly Cloudy
+10:52 AM,57.0 °F,  -,42.1 °F,57%,30.12 in,6.0 mi,WNW,8.1 mph,  -,N/A,	 ,Smoke
+11:52 AM,63.0 °F,  -,39.9 °F,43%,30.09 in,4.0 mi,NNW,8.1 mph,  -,N/A,	 ,Smoke
+12:52 PM,64.9 °F,  -,37.9 °F,37%,30.06 in,4.0 mi,NW,8.1 mph,  -,N/A,	 ,Smoke
+1:52 PM,66.9 °F,  -,37.0 °F,33%,30.03 in,4.0 mi,NW,6.9 mph,  -,N/A,	 ,Smoke
+2:52 PM,66.9 °F,  -,36.0 °F,32%,30.01 in,3.0 mi,NNW,10.4 mph,  -,N/A,	 ,Smoke
+3:52 PM,66.0 °F,  -,36.0 °F,33%,30.01 in,3.0 mi,West,8.1 mph,  -,N/A,	 ,Smoke
+4:52 PM,63.0 °F,  -,37.0 °F,38%,30.00 in,4.0 mi,WNW,6.9 mph,  -,N/A,	 ,Smoke
+5:52 PM,60.1 °F,  -,37.0 °F,42%,30.01 in,3.0 mi,Calm,Calm,  -,N/A,	 ,Smoke
+6:52 PM,57.0 °F,  -,39.0 °F,51%,30.02 in,4.0 mi,NW,3.5 mph,  -,N/A,	 ,Smoke
+7:52 PM,53.1 °F,  -,39.9 °F,61%,30.03 in,4.0 mi,WNW,3.5 mph,  -,N/A,	 ,Smoke
+8:52 PM,52.0 °F,  -,39.9 °F,63%,30.03 in,5.0 mi,NW,3.5 mph,  -,N/A,	 ,Smoke
+9:52 PM,50.0 °F,  -,39.9 °F,68%,30.02 in,5.0 mi,SW,3.5 mph,  -,N/A,	 ,Smoke
+10:52 PM,51.1 °F,  -,39.9 °F,66%,30.02 in,6.0 mi,West,3.5 mph,  -,N/A,	 ,Smoke
+11:52 PM,51.1 °F,  -,39.9 °F,66%,30.01 in,9.0 mi,West,3.5 mph,  -,N/A,	 ,Clear

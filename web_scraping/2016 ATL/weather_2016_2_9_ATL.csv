@@ -1,0 +1,41 @@
+Time (EST),Temp.,Windchill,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,,
+12:52 AM,36.0 °F,28.0 °F,21.0 °F,55%,29.83 in,10.0 mi,West,11.5 mph,  -,N/A,	 ,Mostly Cloudy
+1:52 AM,37.0 °F,28.5 °F,21.9 °F,54%,29.82 in,10.0 mi,WNW,13.8 mph,20.7 mph,N/A,	 ,Mostly Cloudy
+2:52 AM,36.0 °F,26.0 °F,23.0 °F,59%,29.81 in,10.0 mi,WNW,17.3 mph,23.0 mph,N/A,	 ,Overcast
+3:52 AM,35.1 °F,25.9 °F,21.0 °F,57%,29.81 in,10.0 mi,NW,13.8 mph,  -,N/A,	 ,Mostly Cloudy
+4:52 AM,34.0 °F,25.0 °F,21.0 °F,59%,29.81 in,10.0 mi,WNW,12.7 mph,  -,N/A,	 ,Overcast
+5:52 AM,34.0 °F,24.6 °F,21.9 °F,61%,29.83 in,10.0 mi,WNW,13.8 mph,  -,N/A,	 ,Overcast
+6:52 AM,34.0 °F,24.6 °F,21.0 °F,59%,29.85 in,10.0 mi,WNW,13.8 mph,  -,N/A,	 ,Overcast
+7:52 AM,34.0 °F,24.2 °F,19.9 °F,56%,29.86 in,10.0 mi,West,15.0 mph,  -,N/A,	 ,Overcast
+8:52 AM,33.1 °F,23.4 °F,19.0 °F,56%,29.86 in,10.0 mi,West,13.8 mph,21.9 mph,N/A,	 ,Overcast
+9:09 AM,33.1 °F,24.9 °F,19.9 °F,59%,29.85 in,10.0 mi,West,10.4 mph,  -,0.00 in,Snow,Light Snow
+9:52 AM,34.0 °F,25.0 °F,19.9 °F,56%,29.87 in,10.0 mi,West,12.7 mph,  -,0.00 in,	 ,Overcast
+10:06 AM,34.0 °F,24.6 °F,19.9 °F,56%,29.85 in,10.0 mi,West,13.8 mph,  -,0.00 in,Snow,Light Snow
+10:52 AM,35.1 °F,25.5 °F,19.9 °F,54%,29.87 in,10.0 mi,West,15.0 mph,  -,0.00 in,	 ,Mostly Cloudy
+10:54 AM,36.0 °F,27.1 °F,19.9 °F,52%,29.85 in,10.0 mi,West,13.8 mph,  -,0.00 in,Snow,Light Snow
+11:08 AM,35.1 °F,27.4 °F,19.0 °F,52%,29.85 in,10.0 mi,West,10.4 mph,23.0 mph,0.00 in,	 ,Mostly Cloudy
+11:14 AM,35.1 °F,26.9 °F,19.0 °F,52%,29.85 in,10.0 mi,West,11.5 mph,23.0 mph,0.00 in,Snow,Light Snow
+11:36 AM,36.0 °F,26.0 °F,19.0 °F,50%,29.85 in,10.0 mi,WNW,17.3 mph,26.5 mph,0.00 in,	 ,Mostly Cloudy
+11:52 AM,36.0 °F,25.6 °F,19.0 °F,50%,29.86 in,10.0 mi,West,18.4 mph,29.9 mph,0.00 in,	 ,Mostly Cloudy
+12:52 PM,36.0 °F,28.0 °F,17.1 °F,46%,29.85 in,10.0 mi,West,11.5 mph,25.3 mph,N/A,	 ,Mostly Cloudy
+1:52 PM,35.1 °F,24.5 °F,18.0 °F,50%,29.84 in,10.0 mi,West,18.4 mph,31.1 mph,N/A,	 ,Overcast
+2:01 PM,35.1 °F,24.1 °F,18.0 °F,50%,29.82 in,10.0 mi,West,19.6 mph,26.5 mph,0.00 in,Snow,Light Snow
+2:30 PM,35.1 °F,25.2 °F,18.0 °F,50%,29.83 in,10.0 mi,West,16.1 mph,21.9 mph,0.00 in,	 ,Overcast
+2:39 PM,35.1 °F,25.9 °F,19.0 °F,52%,29.83 in,10.0 mi,West,13.8 mph,24.2 mph,0.00 in,Snow,Light Snow
+2:52 PM,34.0 °F,23.0 °F,19.0 °F,54%,29.86 in,10.0 mi,West,18.4 mph,23.0 mph,0.00 in,	 ,Overcast
+2:54 PM,34.0 °F,23.4 °F,19.0 °F,54%,29.83 in,8.0 mi,West,17.3 mph,25.3 mph,0.00 in,Snow,Light Snow
+3:19 PM,32.0 °F,18.1 °F,21.0 °F,64%,29.86 in,4.0 mi,West,27.6 mph,33.4 mph,0.00 in,Snow,Light Snow
+3:27 PM,32.0 °F,20.1 °F,21.9 °F,66%,29.86 in,7.0 mi,WNW,19.6 mph,33.4 mph,0.00 in,Snow,Light Snow
+3:44 PM,32.0 °F,22.1 °F,21.0 °F,64%,29.87 in,10.0 mi,WNW,13.8 mph,  -,0.00 in,	 ,Overcast
+3:52 PM,32.0 °F,22.1 °F,21.0 °F,64%,29.90 in,10.0 mi,WNW,13.8 mph,24.2 mph,0.00 in,	 ,Overcast
+4:15 PM,32.0 °F,20.5 °F,21.0 °F,64%,29.89 in,6.0 mi,WNW,18.4 mph,27.6 mph,0.00 in,Snow,Light Snow
+4:18 PM,32.0 °F,21.2 °F,21.0 °F,64%,29.89 in,10.0 mi,West,16.1 mph,  -,0.00 in,	 ,Mostly Cloudy
+4:52 PM,32.0 °F,20.8 °F,19.0 °F,59%,29.93 in,10.0 mi,WNW,17.3 mph,28.8 mph,0.00 in,	 ,Mostly Cloudy
+5:52 PM,32.0 °F,23.6 °F,19.0 °F,59%,29.96 in,10.0 mi,West,10.4 mph,  -,N/A,	 ,Mostly Cloudy
+6:52 PM,30.9 °F,21.7 °F,18.0 °F,59%,29.99 in,10.0 mi,WNW,11.5 mph,  -,N/A,	 ,Scattered Clouds
+7:52 PM,30.9 °F,21.2 °F,18.0 °F,59%,30.01 in,10.0 mi,NNW,12.7 mph,  -,N/A,	 ,Mostly Cloudy
+8:52 PM,30.0 °F,18.7 °F,18.0 °F,61%,30.02 in,10.0 mi,NW,16.1 mph,  -,N/A,	 ,Mostly Cloudy
+9:52 PM,28.9 °F,17.7 °F,17.1 °F,61%,30.03 in,10.0 mi,NW,15.0 mph,21.9 mph,N/A,	 ,Mostly Cloudy
+10:52 PM,28.0 °F,16.5 °F,16.0 °F,61%,30.03 in,10.0 mi,NW,15.0 mph,  -,N/A,	 ,Partly Cloudy
+11:52 PM,27.0 °F,14.7 °F,16.0 °F,63%,30.03 in,10.0 mi,NW,16.1 mph,21.9 mph,N/A,	 ,Partly Cloudy

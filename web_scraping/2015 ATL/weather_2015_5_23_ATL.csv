@@ -1,0 +1,26 @@
+Time (EDT),Temp.,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,
+12:52 AM,66.0 °F,53.1 °F,63%,30.25 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Clear
+1:52 AM,66.9 °F,52.0 °F,59%,30.24 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Clear
+2:52 AM,64.9 °F,52.0 °F,63%,30.24 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Clear
+3:52 AM,63.0 °F,52.0 °F,67%,30.25 in,10.0 mi,East,4.6 mph,  -,N/A,	 ,Clear
+4:52 AM,64.0 °F,52.0 °F,65%,30.27 in,10.0 mi,ENE,4.6 mph,  -,N/A,	 ,Clear
+5:52 AM,61.0 °F,52.0 °F,72%,30.29 in,10.0 mi,East,4.6 mph,  -,N/A,	 ,Clear
+6:52 AM,62.1 °F,52.0 °F,70%,30.30 in,10.0 mi,ESE,4.6 mph,  -,N/A,	 ,Partly Cloudy
+7:52 AM,63.0 °F,53.1 °F,70%,30.33 in,10.0 mi,East,5.8 mph,  -,N/A,	 ,Partly Cloudy
+8:52 AM,66.0 °F,55.0 °F,68%,30.36 in,10.0 mi,Variable,6.9 mph,  -,N/A,	 ,Scattered Clouds
+9:52 AM,70.0 °F,57.9 °F,65%,30.37 in,10.0 mi,SE,4.6 mph,  -,N/A,	 ,Partly Cloudy
+10:52 AM,73.4 °F,55.4 °F,53%,30.39 in,10.0 mi,SE,9.2 mph,  -,N/A,	 ,Partly Cloudy
+11:52 AM,75.9 °F,53.1 °F,45%,30.36 in,10.0 mi,SE,8.1 mph,18.4 mph,N/A,	 ,Partly Cloudy
+12:52 PM,78.1 °F,53.1 °F,42%,30.35 in,10.0 mi,ESE,9.2 mph,18.4 mph,N/A,	 ,Partly Cloudy
+1:52 PM,79.0 °F,51.1 °F,38%,30.34 in,10.0 mi,SSE,11.5 mph,17.3 mph,N/A,	 ,Partly Cloudy
+2:52 PM,79.0 °F,52.0 °F,39%,30.32 in,10.0 mi,Variable,6.9 mph,  -,N/A,	 ,Partly Cloudy
+3:52 PM,81.0 °F,51.1 °F,35%,30.32 in,10.0 mi,ESE,10.4 mph,  -,N/A,	 ,Partly Cloudy
+4:52 PM,81.0 °F,48.9 °F,33%,30.29 in,10.0 mi,SE,10.4 mph,16.1 mph,N/A,	 ,Partly Cloudy
+5:52 PM,80.1 °F,50.0 °F,35%,30.29 in,10.0 mi,East,9.2 mph,17.3 mph,N/A,	 ,Partly Cloudy
+6:52 PM,80.1 °F,48.0 °F,32%,30.27 in,10.0 mi,East,11.5 mph,  -,N/A,	 ,Partly Cloudy
+7:52 PM,78.1 °F,46.0 °F,32%,30.27 in,10.0 mi,ESE,9.2 mph,  -,N/A,	 ,Partly Cloudy
+8:52 PM,75.9 °F,46.0 °F,35%,30.27 in,10.0 mi,ESE,6.9 mph,  -,N/A,	 ,Partly Cloudy
+9:52 PM,71.1 °F,48.9 °F,45%,30.28 in,10.0 mi,East,6.9 mph,  -,N/A,	 ,Scattered Clouds
+10:52 PM,71.1 °F,50.0 °F,47%,30.29 in,10.0 mi,East,8.1 mph,  -,N/A,	 ,Scattered Clouds
+11:52 PM,70.0 °F,48.0 °F,46%,30.28 in,10.0 mi,ESE,4.6 mph,  -,N/A,	 ,Scattered Clouds
