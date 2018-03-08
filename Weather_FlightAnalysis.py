@@ -40,7 +40,7 @@ def get_weather_time(string):
     return hour
 
 
-def mark_condition(year,month, airport):
+def mark_condition(year, month, airport):
 
     # read files
     if month<10:
@@ -49,18 +49,8 @@ def mark_condition(year,month, airport):
         m_str = str(month)
     f_fname = 'FlightData/'+str(year)+'_'+m_str+'_ONTIME.csv'
     with open(f_fname,'rb') as fflight: 
-        fd = pd.read_csv(fflight)
-    #with open(weather_fname,'rb') as fweather: 
-    #    wdata = pd.read_csv(fweather)
-
-    # extract row with this airpot
-    data_dep = fd.loc[lambda df: df['ORIGIN'] == airport , :]
-    data_arr = fd.loc[lambda df: df['DEST'] == airport , :]
-    fdata = pd.concat([data_dep,data_arr])
-
-    # file size
-    (row_f, col_f) = fdata.shape
-    print row_f, col_f
+        #fd = pd.read_csv(fflight)
+        fdata = pd.read_csv(fflight)
 
     # add colume of weather condition, wind speed, visibility
     fdata['CONDITION'] = None
@@ -73,6 +63,16 @@ def mark_condition(year,month, airport):
     fl_arr_time = fdata['CRS_ARR_TIME']
     fl_dep_airport = fdata['ORIGIN']
     fl_arr_airport = fdata['DEST']
+
+    # extract row with this airpot
+    data_dep = fdata.loc[lambda df: df['ORIGIN'] == airport , :]
+    data_arr = fdata.loc[lambda df: df['DEST'] == airport , :]
+    fdata = pd.concat([data_dep, data_arr])
+    
+
+    # file size
+    (row_f, col_f) = fdata.shape
+    print row_f, col_f
 
     # find the weather of the time
     for i in range(row_f):
@@ -125,7 +125,7 @@ def main():
     #        mark_condition(y, m)
     
     # mark the weather conditions in each flight
-    datas = mark_condition(year[0], month[2], airport[0])
+    datas = mark_condition(year[0], month[0], airport[0])
 
     # group each weather conditions "Clear" "Partly Cloudy" "Overcast" "" ...
 
