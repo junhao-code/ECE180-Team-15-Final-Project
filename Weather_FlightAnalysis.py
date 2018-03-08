@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import time
+import sys
 
 def get_flight_time(string):
     hour = 100
@@ -41,7 +43,6 @@ def get_weather_time(string):
 
 
 def mark_condition(year, month, airport):
-
     # read files
     if month<10:
         m_str = '0'+str(month)  
@@ -68,50 +69,35 @@ def mark_condition(year, month, airport):
     data_dep = fdata.loc[lambda df: df['ORIGIN'] == airport , :]
     data_arr = fdata.loc[lambda df: df['DEST'] == airport , :]
     fdata = pd.concat([data_dep, data_arr])
-    
 
     # file size
     (row_f, col_f) = fdata.shape
     print row_f, col_f
 
     # find the weather of the time
-    for i in range(row_f):
+    for i in fdata.index.values:
         w_fname = 'web_scraping/'+str(year)+'_'+airport+'/weather_'+str(year)+'_'+str(month)+'_'+str(fl_day[i])+'_'+airport+'.csv'
-        # departure at the airport
-        if fl_dep_airport[i]==airport:
-            with open(w_fname,'rb') as fweather:
-                wdata = pd.read_csv(fweather)
-            (row_w, col_w) = wdata.shape
-            #w_time = wdata['Time (EST)']
-            w_time = wdata.iloc[:,0]
-            w_cond = wdata['Conditions']
-            w_wind = wdata['Wind Speed']
-            w_visi = wdata['Visibility']
-            for j in range(row_w):
+        with open(w_fname,'rb') as fweather:
+            wdata = pd.read_csv(fweather)
+        (row_w, col_w) = wdata.shape
+        w_time = wdata['Time (EST)']
+        w_cond = wdata['Conditions']
+        w_wind = wdata['Wind Speed']
+        w_visi = wdata['Visibility']
+
+        for j in wdata.index.values:
+            # departure at the airport
+            if fl_dep_airport[i]==airport:
                 f_hr = get_flight_time(str(fl_dep_time[i]))
-                w_hr = get_weather_time(str(w_time[j]))
-                if f_hr==w_hr:
-                    fdata['CONDITION'][i] = w_cond[j]
-                    fdata['WINDSPEED'][i] = w_wind[j]
-                    fdata['VISIBILITY'][i] = w_visi[j]
-        # arrival at the airport
-        elif fl_arr_airport[i]==airport:
-            with open(w_fname,'rb') as fweather:
-                wdata = pd.read_csv(fweather)
-            (row_w, col_w) = wdata.shape
-            #w_time = wdata['Time (EST)']
-            w_time = wdata.iloc[:,0]
-            w_cond = wdata['Conditions']
-            w_wind = wdata['Wind Speed']
-            w_visi = wdata['Visibility']
-            for j in range(row_w):
-                hr = get_flight_time(str(fl_arr_time[i]))
-                w_hr = get_weather_time(str(w_time[j]))
-                if f_hr==w_hr:
-                    fdata['CONDITION'][i] = w_cond[j]
-                    fdata['WINDSPEED'][i] = w_wind[j]
-                    fdata['VISIBILITY'][i] = w_visi[j]
-        print str(i)+'\n', np.array(fdata.iloc[i])
+            # arrival at the airport
+            elif fl_arr_airport[i]==airport:
+                f_hr = get_flight_time(str(fl_arr_time[i]))
+            w_hr = get_weather_time(str(w_time[j]))
+            if f_hr==w_hr:
+                fdata.at[i, 'CONDITION'] = w_cond[j]
+                fdata.at[i, 'WINDSPEED'] = w_wind[j]
+                fdata.at[i, 'VISIBILITY'] = w_visi[j]
+        print str(i)+'\n', np.array(fdata.loc[i])
     return fdata
 
 def main():
@@ -131,12 +117,8 @@ def main():
 
     # count the fligth delay rate in each group : (num of flight delay)/(num of total flight)
 
-    # show process bar
-    max_steps = 100
-    process_bar = ShowProcess(max_steps)
-    for i in range(max_steps + 1):
-        process_bar.show_process()
-        time.sleep(0.05)
-    process_bar.close()
     
-main() 
+    
+if __name__ == "__main__":
+    # execute only if run as a script
+    main()
