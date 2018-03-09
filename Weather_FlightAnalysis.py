@@ -4,9 +4,38 @@ import time
 import sys
 import re
 
+def group_data_by_period(data, period_hr): #1,2,3,4,6,8,12,24
+    assert isinstance(period_hr,int)
+    assert 24%period_hr==0
+    assert period_hr<=24 and period_hr>0
+    gp_num = 24/period_hr
+    frames = {}
+    # groupby period
+    gb_period = data.groupby(data['PERIOD'])
+    print '\nTime period of data:', gb_period.groups.keys(), '\n'
+    for i in range(gp_num): 
+        # concat group 
+        dfs = []
+        for p in range(period_hr):
+            gname = i*period_hr+p
+            if gname in gb_period.groups.keys():
+                df = gb_period.get_group(gname)
+                dfs.append(df)
+        # create group dictionary
+        dict_name = str(i*period_hr)+'-'+str((i+1)*period_hr-1)
+        if dfs==[]:
+            df_temp = data.head(1)
+            df_temp.at[data.head(1).index.values,:] = None
+            frames[dict_name] = df_temp
+        else:
+            frames[dict_name] = pd.concat(dfs)
+    return gp_num, frames
+
+
+
 def calculate_flight_delay_rate_bygroup(data, group_type, airport):
     gb = data.groupby(group_type)
-    print '\nFlight Delay Rate (in each weather condition):'
+    print '\nFlight Delay Rate (in each'+group_type+'):'
     for i in gb.groups.keys():
         num_dep_del = 0
         num_arr_del = 0
@@ -15,31 +44,26 @@ def calculate_flight_delay_rate_bygroup(data, group_type, airport):
         total = len(ggp)
         # group departure & count delay flights
         gb_temp = ggp.groupby(ggp['ORIGIN']==airport)
-        for k in gb_temp.groups.keys():
-            if k==True:
-                gb_dep = gb_temp.get_group(True)
-                gb_temp1 = gb_dep.groupby([int(r)>=15 for r in gb_dep['DEP_DELAY_NEW']])
-                for k1 in gb_temp1.groups.keys():
-                    if k1==True:
-                        gb_dep_del = gb_temp1.get_group(True)
-
-                        num_dep_del = len(gb_dep_del)
+        if True in gb_temp.groups.keys():
+            gb_dep = gb_temp.get_group(True)
+            gb_temp1 = gb_dep.groupby([int(r)>=15 for r in gb_dep['DEP_DELAY_NEW']])
+            if True in gb_temp1.groups.keys():
+                gb_dep_del = gb_temp1.get_group(True)
+                num_dep_del = len(gb_dep_del)
         # group arrival & count delay flights
         gb_temp2 = ggp.groupby(ggp['DEST']==airport)
-        for k in gb_temp2.groups.keys():
-            if k==True:
-                gb_arr = gb_temp2.get_group(True)
-                gb_temp3 = gb_arr.groupby(gb_arr['ARR_DELAY_NEW']>=15)
-                for k1 in gb_temp3.groups.keys():
-                    if k1==True:
-                        gb_arr_del = gb_temp3.get_group(True)
-                        num_arr_del = len(gb_arr_del)
+        if True in gb_temp2.groups.keys():
+            gb_arr = gb_temp2.get_group(True)
+            gb_temp3 = gb_arr.groupby(gb_arr['ARR_DELAY_NEW']>=15)
+            if True in gb_temp3.groups.keys():
+                gb_arr_del = gb_temp3.get_group(True)
+                num_arr_del = len(gb_arr_del)
         # flight delay rate in the group
         del_rate = float(num_dep_del+num_arr_del)/float(total)
         print i, del_rate
 
 
-def get_flight_time(string):
+def get_flight_time(string): # 0~23hr
     hour = 100
     if len(string)==1 or len(string)==2:
         hour = 0
@@ -57,7 +81,7 @@ def get_flight_time(string):
         hour = 0
     return hour
 
-def get_weather_time(string):
+def get_weather_time(string): # 0~23hr
     hour = 100
     if len(string) == 7:
         hour = int(string[0])
@@ -78,10 +102,12 @@ def get_weather_time(string):
     return hour
 
 def clean_data(data, airport):
+    print '\nStart cleaning data...'
     # add colume of weather condition, wind speed, visibility
     data['CONDITION'] = None
     data['WINDSPEED'] = None
     data['VISIBILITY'] = None
+    data['PERIOD'] = None
 
     # extract row with this airpot
     data_dep = data.loc[lambda df: df['ORIGIN'] == airport , :]
@@ -92,6 +118,7 @@ def clean_data(data, airport):
 
 
 def mark_condition(year, month, airport):
+    print '\nStart marking weather condition...'
     # read files
     if month<10:
         m_str = '0'+str(month)  
@@ -103,7 +130,7 @@ def mark_condition(year, month, airport):
         fread = pd.read_csv(fflight)
 
     # ================= test =================
-    fread = fread.iloc[1:20000]
+    #fread = fread.iloc[1:300000]
     # ================= test =================
 
     fdata = clean_data(fread, airport)
@@ -117,10 +144,10 @@ def mark_condition(year, month, airport):
 
     # file size
     (row_f, col_f) = fdata.shape
-    print '\nData Size:'
-    print row_f, col_f
+    print '\nData Size:', row_f, col_f
 
     # find the weather of the time
+    print '\nStart assigning data...'
     for i in fdata.index.values:
         w_fname = 'web_scraping/'+str(year)+'_'+airport+'/weather_'+str(year)+'_'+str(month)+'_'+str(fl_day[i])+'_'+airport+'.csv'
         with open(w_fname,'rb') as fweather:
@@ -140,6 +167,8 @@ def mark_condition(year, month, airport):
                 f_hr = get_flight_time(str(fl_arr_time[i]))
             w_hr = get_weather_time(str(w_time[j]))
             if f_hr==w_hr:
+                # set period in the day
+                fdata.at[i, 'PERIOD'] = int(f_hr)
                 # set condition
                 fdata.at[i, 'CONDITION'] = w_cond[j]
                 # set wind speed
@@ -147,7 +176,8 @@ def mark_condition(year, month, airport):
                     fdata.at[i, 'WINDSPEED'] = w_wind[j]
                 else:
                     wind = re.findall(r"\d+\.?\d*", w_wind[j])
-                    fdata.at[i, 'WINDSPEED'] = wind[0]
+                    if wind != []:
+                        fdata.at[i, 'WINDSPEED'] = wind[0]
                 # set visibility
                 visi = re.findall(r"\d+\.?\d*", w_visi[j])
                 fdata.at[i, 'VISIBILITY'] = visi[0]
@@ -170,7 +200,12 @@ def main():
     
     # group each weather conditions "Clear" "Partly Cloudy" "Overcast" "" ...
     # and count the fligth delay rate in each group : (num of flight delay)/(num of total flight)
-    calculate_flight_delay_rate_bygroup(datas, 'CONDITION', airport[0])
+    group_num, dict_data = group_data_by_period(datas, period_hr=3)
+    for i in range(group_num):
+        print dict_data.keys()[i]
+        input_data = dict_data[dict_data.keys()[i]]
+        calculate_flight_delay_rate_bygroup(input_data, 'CONDITION', airport[0])
+        print '\n\n'
 
     # ================= parameters =================
 
