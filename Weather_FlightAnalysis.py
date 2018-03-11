@@ -53,7 +53,8 @@ def clean_data(data, airport):
     data['PERIOD'] = None
 
     # extract row with this airpot
-    data_dep = data.loc[lambda df: df['ORIGIN'] == airport , :]
+    #data_dep = data.loc[lambda df: df['ORIGIN'] == airport , :]
+    data_dep = data.loc[data['ORIGIN'] == airport , :]
     data_arr = data.loc[lambda df: df['DEST'] == airport , :]
     data_dep_arr = pd.concat([data_dep, data_arr])
     clean_data = data_dep_arr.dropna(axis=0, subset=['DEP_DELAY_NEW','ARR_DELAY_NEW'])
@@ -73,7 +74,7 @@ def mark_condition(year, month, airport):
         fread = pd.read_csv(fflight)
 
     # ================= test =================
-    fread = fread.iloc[1:300000]
+    #fread = fread.iloc[100000]
     # ================= test =================
 
     fdata = clean_data(fread, airport)
@@ -87,7 +88,7 @@ def mark_condition(year, month, airport):
 
     # file size
     (row_f, col_f) = fdata.shape
-    print '\nData Size:', row_f, col_f
+    print '\nMonthly Data Size:', row_f, col_f
 
     # find the weather of the time
     print '\nStart assigning data...'
@@ -96,7 +97,8 @@ def mark_condition(year, month, airport):
         with open(w_fname,'rb') as fweather:
             wdata = pd.read_csv(fweather)
         (row_w, col_w) = wdata.shape
-        w_time = wdata['Time (EST)']
+        #w_time = wdata['Time (EST)']
+        w_time = wdata.ix[:,0]
         w_cond = wdata['Conditions']
         w_wind = wdata['Wind Speed']
         w_visi = wdata['Visibility']
@@ -123,7 +125,8 @@ def mark_condition(year, month, airport):
                         fdata.at[i, 'WINDSPEED'] = wind[0]
                 # set visibility
                 visi = re.findall(r"\d+\.?\d*", w_visi[j])
-                fdata.at[i, 'VISIBILITY'] = visi[0]
+                if visi != []:
+                    fdata.at[i, 'VISIBILITY'] = visi[0]
         #print str(i)+'\n', np.array(fdata.loc[i])
     return fdata
 
@@ -161,7 +164,7 @@ def calculate_flight_delay_rate_bygroup(data, group_type, airport, orig_data):
     tp_rate = []
     gb = data.groupby(group_type)
     or_gb = orig_data.groupby(group_type)
-    print '\nFlight Delay Rate (in each'+group_type+'):'
+    print '\nFlight Delay Rate (in each '+group_type+'):'
     for i in or_gb.groups.keys():
         if i in gb.groups.keys():
             num_dep_del = 0
@@ -196,15 +199,39 @@ def calculate_flight_delay_rate_bygroup(data, group_type, airport, orig_data):
     print tp_name, tp_rate
     return tp_name, tp_rate
 
-def plot_flight_condition(type_name, type_rate, airport):
-    plt.title('Flight delay rate in each CONDITION at '+airport) 
+def plot_flight_condition(type_name, type_rate, year, month, airport):
     plt.xlabel('CONDITION of weather')
     plt.ylabel('Flight delay rate')
     index = np.arange(len(type_name))
+    plt.yticks(np.linspace(0, 1, 50))
     plt.xticks(index, tuple(type_name), size='small', rotation=60)
     plt.bar(index, tuple(type_rate), 0.2, alpha=0.4, color='b')#label=dict_data.keys()[i]
     plt.tight_layout()
-    plt.show()
+    if month>12:
+        plt.title(str(year)+' Flight delay rate in each CONDITION at '+airport) 
+        plt.savefig('CONDITION_'+str(year)+'_'+airport+'.png')
+    else:
+        plt.title(str(year)+'/'+str(month)+' Flight delay rate in each CONDITION at '+airport) 
+        plt.savefig('CONDITION_'+str(year)+'_'+str(month)+'_'+airport+'.png')
+    #plt.show()
+
+def plot_parched(type_name, type_rate, year,month, airport):
+    plt.figure(figsize=(9,6))
+    patches,text1,text2 = plt.pie(type_rate,labels=type_name,autopct = '%3.2f%%', shadow = False, startangle =90, pctdistance = 0.6) 
+    for t in text1:
+        t.set_size=(30)
+    for t in text2:
+        t.set_size=(20)
+    plt.axis('equal')
+    plt.legend()
+    plt.tight_layout()
+    if month>12:
+        plt.title(str(year)+' Factors of Flight delay rate in each CONDITION at '+airport)
+        plt.savefig('CONDITION_'+str(year)+'_'+airport+'_patch.png')
+    else:
+        plt.title(str(year)+'/'+str(month)+'Factors of Flight delay rate in each CONDITION at '+airport+' in '+str(year))
+        plt.savefig('CONDITION_'+str(year)+'_'+str(month)+'_'+airport+'_patch.png')
+    #plt.show()
 
 def main():
     # parameters
@@ -212,27 +239,34 @@ def main():
     month =  range(1,13)
     airport = ['ATL','DFW','ORD','DEN','LAX']
     weather_tp = ['CONDITION','WINDSPEED','VISIBILITY']
-    # initialize
-    #for y in year:
-    #    for m in month:
-    #        mark_condition(y, m)
     
     # ================= parameters =================
-    # mark the weather conditions in each flight
-    datas = mark_condition(year[0], month[0], airport[0])
+    # merge datas in a year
+    ad = []
+    for m in month:
+        print '\nDate: ', year[5], m
+        # mark the weather conditions in each flight
+        datas = mark_condition(year[5], m, airport[0])
+        ad.append(datas)
+    alldata = pd.concat(ad)
+    alldata.reset_index(drop=True)
     
+    # file size
+    (row_f, col_f) = alldata.shape
+    print '\nALL Data Size:', row_f, col_f
+
     # group each weather conditions "Clear" "Partly Cloudy" "Overcast" "" ...
     # and count the fligth delay rate in each group : (num of flight delay)/(num of total flight)
-    group_num, dict_data = group_data_by_period(datas, period_hr=6)
+    group_num, dict_data = group_data_by_period(alldata, period_hr=24)
     for i in range(group_num):
         print dict_data.keys()[i]
         input_data = dict_data[dict_data.keys()[i]]
-        tp_name, tp_rate = calculate_flight_delay_rate_bygroup(input_data, weather_tp[0], airport[0], datas)
+        tp_name, tp_rate = calculate_flight_delay_rate_bygroup(input_data, weather_tp[0], airport[0], alldata)
         print '\n\n'
         # PLOT HIST - http://blog.csdn.net/wishchin/article/details/24906175
-        plot_flight_condition(tp_name, tp_rate, airport[0])
+        plot_flight_condition(tp_name, tp_rate, year[5],20, airport[0])
+        plot_parched(tp_name, tp_rate, year[5], airport[0])
         
-
     # ================= parameters =================
 
     
