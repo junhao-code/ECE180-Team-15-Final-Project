@@ -1,0 +1,48 @@
+Time (CDT),Temp.,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,
+12:46 AM,60.8 °F,57.2 °F,88%,29.94 in,4.0 mi,ENE,16.1 mph,  -,0.05 in,Rain,Rain
+12:51 AM,61.0 °F,57.9 °F,90%,29.94 in,4.0 mi,ENE,17.3 mph,  -,0.07 in,Rain,Rain
+1:01 AM,61.0 °F,57.9 °F,90%,29.93 in,9.0 mi,ENE,18.4 mph,26.5 mph,0.01 in,Rain,Light Rain
+1:51 AM,62.1 °F,59.0 °F,90%,29.93 in,7.0 mi,ENE,17.3 mph,25.3 mph,0.08 in,Rain,Rain
+2:51 AM,61.0 °F,57.9 °F,90%,29.93 in,5.0 mi,East,16.1 mph,  -,0.17 in,Rain,Rain
+3:13 AM,60.1 °F,57.0 °F,90%,29.93 in,4.0 mi,ENE,18.4 mph,21.9 mph,0.05 in,Rain,Rain
+3:23 AM,60.1 °F,57.0 °F,90%,29.93 in,4.0 mi,ENE,15.0 mph,27.6 mph,0.09 in,Rain,Heavy Rain
+3:51 AM,60.1 °F,57.0 °F,90%,29.92 in,3.0 mi,ENE,16.1 mph,26.5 mph,0.21 in,Rain,Heavy Rain
+4:06 AM,60.1 °F,57.0 °F,90%,29.91 in,7.0 mi,ENE,17.3 mph,33.4 mph,0.05 in,Rain,Light Rain
+4:28 AM,60.1 °F,57.0 °F,90%,29.93 in,10.0 mi,NE,11.5 mph,20.7 mph,0.05 in,Rain,Light Rain
+4:51 AM,60.1 °F,57.0 °F,90%,29.95 in,10.0 mi,NE,13.8 mph,  -,0.06 in,Rain,Light Rain
+5:51 AM,59.0 °F,55.9 °F,90%,29.95 in,10.0 mi,ENE,15.0 mph,  -,0.04 in,Rain,Light Rain
+6:51 AM,57.9 °F,55.0 °F,90%,29.98 in,9.0 mi,ENE,12.7 mph,  -,0.04 in,Rain,Light Rain
+7:51 AM,57.9 °F,55.0 °F,90%,30.00 in,8.0 mi,NE,13.8 mph,  -,0.04 in,Rain,Light Rain
+8:51 AM,57.9 °F,55.0 °F,90%,30.01 in,5.0 mi,NNE,16.1 mph,  -,0.04 in,Rain,Light Rain
+9:02 AM,57.0 °F,55.0 °F,93%,30.02 in,3.0 mi,NNE,15.0 mph,  -,0.00 in,Rain,Light Rain
+9:26 AM,57.0 °F,55.0 °F,93%,30.02 in,2.5 mi,NNE,17.3 mph,26.5 mph,0.02 in,Rain,Light Rain
+9:51 AM,57.0 °F,55.0 °F,93%,30.04 in,2.5 mi,NNE,15.0 mph,  -,0.03 in,Rain,Light Rain
+10:46 AM,57.2 °F,55.4 °F,94%,30.06 in,5.0 mi,NE,12.7 mph,  -,0.03 in,Rain,Light Rain
+10:51 AM,57.9 °F,55.0 °F,90%,30.06 in,6.0 mi,NNE,10.4 mph,  -,0.03 in,Rain,Light Rain
+11:51 AM,57.9 °F,55.0 °F,90%,30.06 in,7.0 mi,NE,17.3 mph,24.2 mph,0.02 in,Rain,Light Rain
+12:10 PM,59.0 °F,55.0 °F,87%,30.07 in,10.0 mi,NE,11.5 mph,  -,0.01 in,	 ,Overcast
+12:51 PM,59.0 °F,54.0 °F,83%,30.08 in,3.0 mi,NE,16.1 mph,  -,0.01 in,Rain,Light Rain
+1:32 PM,57.9 °F,55.0 °F,90%,30.08 in,2.5 mi,NE,11.5 mph,  -,0.00 in,Rain,Light Rain
+1:51 PM,57.9 °F,55.0 °F,90%,30.09 in,2.5 mi,ENE,9.2 mph,  -,0.00 in,Rain,Light Rain
+2:03 PM,57.9 °F,55.0 °F,90%,30.09 in,2.0 mi,NE,12.7 mph,  -,0.00 in,Rain,Light Rain
+2:21 PM,57.0 °F,55.0 °F,93%,30.09 in,1.8 mi,NE,12.7 mph,  -,0.01 in,Rain,Light Rain
+2:46 PM,57.2 °F,55.4 °F,94%,30.09 in,3.0 mi,NE,13.8 mph,  -,0.01 in,Rain,Light Rain
+2:51 PM,57.9 °F,55.0 °F,90%,30.10 in,4.0 mi,NE,11.5 mph,  -,0.01 in,Rain,Light Rain
+2:59 PM,57.9 °F,55.0 °F,90%,30.09 in,5.0 mi,NNE,11.5 mph,  -,0.01 in,Rain,Light Rain
+3:13 PM,57.9 °F,55.0 °F,90%,30.10 in,4.0 mi,NNE,13.8 mph,25.3 mph,0.01 in,Rain,Light Rain
+3:51 PM,57.9 °F,55.0 °F,90%,30.12 in,4.0 mi,ENE,11.5 mph,  -,0.01 in,Rain,Light Rain
+4:06 PM,57.9 °F,55.0 °F,90%,30.12 in,5.0 mi,NE,13.8 mph,  -,0.00 in,Rain,Light Rain
+4:51 PM,57.9 °F,55.0 °F,90%,30.12 in,10.0 mi,NE,11.5 mph,  -,0.00 in,Rain,Light Rain
+5:26 PM,57.9 °F,55.0 °F,90%,30.13 in,4.0 mi,NE,9.2 mph,  -,0.00 in,Rain,Light Rain
+5:51 PM,57.9 °F,55.0 °F,90%,30.14 in,5.0 mi,NE,10.4 mph,  -,0.00 in,Rain,Light Rain
+6:51 PM,57.9 °F,54.0 °F,87%,30.15 in,8.0 mi,ENE,12.7 mph,  -,0.01 in,Rain,Light Rain
+7:18 PM,57.0 °F,54.0 °F,89%,30.15 in,6.0 mi,ENE,13.8 mph,  -,0.00 in,	 ,Light Drizzle
+7:46 PM,57.2 °F,53.6 °F,88%,30.15 in,5.0 mi,ENE,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+7:51 PM,57.0 °F,55.0 °F,93%,30.15 in,5.0 mi,ENE,12.7 mph,  -,0.00 in,	 ,Light Drizzle
+8:04 PM,57.0 °F,55.0 °F,93%,30.16 in,5.0 mi,ENE,9.2 mph,  -,0.00 in,	 ,Light Drizzle
+8:21 PM,57.0 °F,55.0 °F,93%,30.16 in,5.0 mi,ENE,11.5 mph,  -,0.00 in,	 ,Light Drizzle
+8:51 PM,57.9 °F,54.0 °F,87%,30.17 in,9.0 mi,ENE,10.4 mph,  -,0.00 in,	 ,Light Drizzle
+9:51 PM,57.9 °F,53.1 °F,84%,30.16 in,10.0 mi,ENE,9.2 mph,  -,0.00 in,	 ,Overcast
+10:51 PM,57.9 °F,53.1 °F,84%,30.16 in,10.0 mi,ENE,11.5 mph,  -,N/A,	 ,Overcast
+11:51 PM,57.0 °F,53.1 °F,87%,30.16 in,10.0 mi,East,12.7 mph,  -,N/A,	 ,Overcast

@@ -1,0 +1,45 @@
+Time (MST),Temp.,Windchill,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,,
+12:53 AM,26.1 °F,16.8 °F,23.0 °F,88%,29.92 in,10.0 mi,NE,9.2 mph,  -,N/A,	 ,Scattered Clouds
+1:24 AM,26.1 °F,16.2 °F,21.9 °F,84%,29.99 in,10.0 mi,NNE,10.4 mph,  -,N/A,	 ,Mostly Cloudy
+1:53 AM,27.0 °F,16.1 °F,24.1 °F,89%,29.94 in,10.0 mi,NE,12.7 mph,  -,N/A,	 ,Mostly Cloudy
+2:53 AM,26.1 °F,19.4 °F,23.0 °F,88%,29.98 in,10.0 mi,NE,5.8 mph,  -,N/A,	 ,Overcast
+3:18 AM,25.0 °F,18.1 °F,23.0 °F,92%,30.02 in,10.0 mi,SE,5.8 mph,  -,N/A,	 ,Overcast
+3:53 AM,25.0 °F,18.1 °F,23.0 °F,92%,29.97 in,10.0 mi,SSE,5.8 mph,  -,N/A,	 ,Overcast
+4:37 AM,25.0 °F,16.3 °F,21.9 °F,88%,29.99 in,10.0 mi,South,8.1 mph,  -,0.00 in,Snow,Light Snow
+4:53 AM,25.0 °F,17.1 °F,23.0 °F,92%,29.99 in,9.0 mi,SSE,6.9 mph,  -,0.00 in,Snow,Light Snow
+5:53 AM,26.1 °F,19.4 °F,23.0 °F,88%,29.98 in,10.0 mi,SSE,5.8 mph,  -,0.00 in,	 ,Overcast
+6:21 AM,26.1 °F,21.9 °F,23.0 °F,88%,29.97 in,10.0 mi,SSE,3.5 mph,  -,N/A,	 ,Overcast
+6:45 AM,26.1 °F,  -,23.0 °F,88%,29.99 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Overcast
+6:53 AM,26.1 °F,20.5 °F,23.0 °F,88%,29.97 in,10.0 mi,Variable,4.6 mph,  -,N/A,	 ,Overcast
+7:53 AM,26.1 °F,19.4 °F,23.0 °F,88%,30.02 in,10.0 mi,ENE,5.8 mph,  -,N/A,	 ,Overcast
+8:53 AM,27.0 °F,19.5 °F,23.0 °F,85%,30.03 in,10.0 mi,East,6.9 mph,  -,N/A,	 ,Overcast
+9:53 AM,26.1 °F,18.4 °F,21.9 °F,84%,30.06 in,9.0 mi,NE,6.9 mph,  -,N/A,	 ,Overcast
+10:53 AM,28.0 °F,22.8 °F,21.9 °F,78%,30.08 in,10.0 mi,Variable,4.6 mph,  -,N/A,	 ,Overcast
+11:53 AM,28.0 °F,21.7 °F,21.9 °F,78%,30.09 in,10.0 mi,NNW,5.8 mph,  -,N/A,	 ,Overcast
+12:27 PM,28.9 °F,21.1 °F,21.9 °F,75%,30.04 in,10.0 mi,NNW,8.1 mph,  -,N/A,	 ,Overcast
+12:53 PM,28.9 °F,21.1 °F,21.0 °F,72%,30.12 in,10.0 mi,North,8.1 mph,  -,N/A,	 ,Overcast
+1:23 PM,28.0 °F,17.5 °F,23.0 °F,81%,30.06 in,10.0 mi,NNE,12.7 mph,  -,N/A,	 ,Overcast
+1:32 PM,27.0 °F,16.1 °F,23.0 °F,85%,30.07 in,10.0 mi,NNE,12.7 mph,  -,N/A,	 ,Overcast
+1:53 PM,27.0 °F,16.7 °F,23.0 °F,85%,30.15 in,10.0 mi,NE,11.5 mph,  -,N/A,	 ,Overcast
+2:16 PM,27.0 °F,14.7 °F,23.0 °F,85%,30.08 in,0.5 mi,NNE,16.1 mph,  -,N/A,Fog,Light Freezing Fog
+2:27 PM,24.1 °F,11.0 °F,21.9 °F,91%,30.09 in,0.1 mi,NE,16.1 mph,  -,N/A,Fog,Light Freezing Fog
+2:41 PM,24.1 °F,11.0 °F,21.9 °F,91%,30.10 in,0.1 mi,NE,16.1 mph,  -,N/A,Fog,Light Freezing Fog
+2:48 PM,24.8 °F,11.9 °F,21.2 °F,86%,30.10 in,0.1 mi,NE,16.1 mph,  -,0.00 in,Fog,Light Freezing Drizzle
+2:53 PM,24.1 °F,11.5 °F,21.9 °F,91%,30.20 in,0.1 mi,NE,15.0 mph,  -,0.00 in,Fog,Light Freezing Drizzle
+3:29 PM,23.0 °F,11.1 °F,21.0 °F,92%,30.13 in,0.1 mi,NE,12.7 mph,  -,0.00 in,Fog,Light Freezing Fog
+3:40 PM,21.9 °F,9.8 °F,21.0 °F,96%,30.14 in,0.1 mi,NE,12.7 mph,  -,0.00 in,Fog,Light Freezing Fog
+3:53 PM,21.9 °F,10.4 °F,21.0 °F,96%,30.24 in,0.1 mi,NE,11.5 mph,  -,0.00 in,Fog,Light Freezing Fog
+4:02 PM,21.9 °F,10.4 °F,21.0 °F,96%,30.14 in,0.1 mi,NE,11.5 mph,  -,0.00 in,Fog,Light Freezing Drizzle
+4:32 PM,21.9 °F,11.0 °F,19.9 °F,92%,30.17 in,0.1 mi,ENE,10.4 mph,  -,0.00 in,Fog,Light Freezing Drizzle
+4:53 PM,21.9 °F,9.8 °F,19.9 °F,92%,30.27 in,0.1 mi,East,12.7 mph,  -,0.00 in,Fog,Light Freezing Drizzle
+5:48 PM,21.2 °F,9.5 °F,19.4 °F,93%,30.19 in,0.2 mi,East,11.5 mph,  -,0.00 in,	 ,Overcast
+5:53 PM,21.9 °F,10.4 °F,19.9 °F,92%,30.30 in,0.2 mi,East,11.5 mph,  -,0.00 in,	 ,Overcast
+6:42 PM,21.0 °F,8.6 °F,19.0 °F,92%,30.22 in,1.2 mi,East,12.7 mph,  -,N/A,	 ,Overcast
+6:53 PM,21.0 °F,9.9 °F,19.0 °F,92%,30.32 in,1.2 mi,East,10.4 mph,  -,N/A,	 ,Overcast
+7:21 PM,21.0 °F,9.9 °F,18.0 °F,88%,30.22 in,9.0 mi,East,10.4 mph,  -,0.00 in,	 ,Light Freezing Drizzle
+7:53 PM,21.0 °F,9.3 °F,18.0 °F,88%,30.34 in,6.0 mi,East,11.5 mph,  -,0.00 in,	 ,Light Freezing Drizzle
+8:53 PM,21.0 °F,9.9 °F,18.0 °F,88%,30.34 in,6.0 mi,East,10.4 mph,  -,0.00 in,	 ,Light Freezing Drizzle
+9:53 PM,19.9 °F,8.6 °F,18.0 °F,92%,30.36 in,7.0 mi,East,10.4 mph,  -,0.00 in,	 ,Light Freezing Drizzle
+10:53 PM,19.9 °F,7.3 °F,18.0 °F,92%,30.34 in,10.0 mi,East,12.7 mph,  -,0.00 in,	 ,Light Freezing Drizzle
+11:53 PM,19.9 °F,8.6 °F,18.0 °F,92%,30.32 in,5.0 mi,East,10.4 mph,  -,0.00 in,	 ,Light Freezing Drizzle

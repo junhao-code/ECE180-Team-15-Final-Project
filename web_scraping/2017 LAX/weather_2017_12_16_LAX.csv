@@ -1,0 +1,26 @@
+Time (PST),Temp.,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,
+12:53 AM,57.0 °F,50.0 °F,77%,29.89 in,7.0 mi,Calm,Calm,  -,N/A,	 ,Mostly Cloudy
+1:53 AM,55.0 °F,46.9 °F,74%,29.88 in,7.0 mi,NE,4.6 mph,  -,N/A,	 ,Mostly Cloudy
+2:53 AM,55.9 °F,43.0 °F,62%,29.85 in,7.0 mi,Calm,Calm,  -,N/A,	 ,Mostly Cloudy
+3:53 AM,54.0 °F,44.1 °F,69%,29.81 in,7.0 mi,NNE,3.5 mph,  -,N/A,	 ,Overcast
+4:53 AM,55.9 °F,45.0 °F,67%,29.72 in,7.0 mi,ESE,13.8 mph,  -,N/A,	 ,Overcast
+5:53 AM,57.0 °F,50.0 °F,77%,29.77 in,8.0 mi,ENE,4.6 mph,  -,0.00 in,	 ,Overcast
+6:53 AM,54.0 °F,48.0 °F,80%,29.74 in,8.0 mi,East,9.2 mph,  -,N/A,	 ,Scattered Clouds
+7:53 AM,57.0 °F,48.0 °F,72%,29.73 in,6.0 mi,ENE,9.2 mph,  -,N/A,	 ,Haze
+8:53 AM,60.1 °F,46.9 °F,62%,29.72 in,7.0 mi,ENE,9.2 mph,  -,N/A,	 ,Scattered Clouds
+9:53 AM,63.0 °F,50.0 °F,63%,29.72 in,9.0 mi,ENE,5.8 mph,  -,N/A,	 ,Partly Cloudy
+10:53 AM,64.0 °F,50.0 °F,60%,29.72 in,10.0 mi,SSE,8.1 mph,18.4 mph,N/A,	 ,Partly Cloudy
+11:53 AM,64.9 °F,51.1 °F,61%,29.69 in,10.0 mi,ESE,8.1 mph,17.3 mph,N/A,	 ,Partly Cloudy
+12:53 PM,64.9 °F,51.1 °F,61%,29.68 in,10.0 mi,SSE,9.2 mph,  -,N/A,	 ,Partly Cloudy
+1:53 PM,64.9 °F,51.1 °F,61%,29.69 in,10.0 mi,South,4.6 mph,  -,N/A,	 ,Partly Cloudy
+2:53 PM,64.9 °F,51.1 °F,61%,29.70 in,10.0 mi,SSW,6.9 mph,  -,N/A,	 ,Partly Cloudy
+3:53 PM,62.1 °F,54.0 °F,75%,29.71 in,10.0 mi,West,10.4 mph,  -,N/A,	 ,Partly Cloudy
+4:53 PM,61.0 °F,52.0 °F,72%,29.72 in,10.0 mi,West,9.2 mph,  -,N/A,	 ,Partly Cloudy
+5:53 PM,61.0 °F,52.0 °F,72%,29.74 in,10.0 mi,WNW,6.9 mph,  -,N/A,	 ,Partly Cloudy
+6:53 PM,60.1 °F,52.0 °F,75%,29.75 in,10.0 mi,NNW,5.8 mph,  -,N/A,	 ,Clear
+7:53 PM,60.1 °F,52.0 °F,75%,29.76 in,10.0 mi,NW,4.6 mph,  -,N/A,	 ,Clear
+8:53 PM,59.0 °F,51.1 °F,75%,29.78 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Clear
+9:53 PM,60.1 °F,53.1 °F,78%,29.79 in,10.0 mi,NNW,5.8 mph,  -,N/A,	 ,Clear
+10:53 PM,57.9 °F,50.0 °F,75%,29.80 in,10.0 mi,Variable,4.6 mph,  -,N/A,	 ,Clear
+11:53 PM,57.9 °F,48.9 °F,72%,29.78 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Clear

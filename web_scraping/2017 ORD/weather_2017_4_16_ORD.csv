@@ -1,0 +1,47 @@
+Time (CDT),Temp.,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,
+12:34 AM,73.0 °F,50.0 °F,44%,29.76 in,10.0 mi,SSW,23.0 mph,31.1 mph,N/A,Thunderstorm,Thunderstorm
+12:43 AM,66.9 °F,55.0 °F,66%,29.83 in,6.0 mi,West,24.2 mph,40.3 mph,0.00 in,"Rain
+	,
+Thunderstorm",Light Thunderstorms and Rain
+12:51 AM,64.0 °F,57.0 °F,78%,29.83 in,5.0 mi,West,16.1 mph,31.1 mph,0.04 in,"Rain
+	,
+Thunderstorm",Heavy Thunderstorms and Rain
+1:00 AM,64.9 °F,55.9 °F,73%,29.85 in,3.0 mi,West,17.3 mph,27.6 mph,0.05 in,"Rain
+	,
+Thunderstorm",Thunderstorms and Rain
+1:51 AM,61.0 °F,57.0 °F,87%,29.86 in,4.0 mi,West,12.7 mph,  -,0.18 in,"Rain
+	,
+Thunderstorm",Thunderstorms and Rain
+2:05 AM,61.0 °F,57.0 °F,87%,29.85 in,6.0 mi,West,9.2 mph,  -,0.05 in,"Rain
+	,
+Thunderstorm",Light Thunderstorms and Rain
+2:30 AM,61.0 °F,57.0 °F,87%,29.86 in,5.0 mi,WSW,8.1 mph,  -,0.08 in,Rain,Rain
+2:51 AM,60.1 °F,57.9 °F,93%,29.86 in,5.0 mi,SW,8.1 mph,  -,0.14 in,Rain,Rain
+3:51 AM,60.1 °F,57.9 °F,93%,29.83 in,5.0 mi,SW,6.9 mph,  -,0.23 in,Rain,Rain
+4:51 AM,60.1 °F,57.0 °F,90%,29.82 in,10.0 mi,SW,11.5 mph,  -,0.09 in,Rain,Light Rain
+5:23 AM,60.8 °F,57.2 °F,88%,29.85 in,10.0 mi,SSW,11.5 mph,  -,N/A,Rain,Light Rain
+5:51 AM,60.1 °F,57.0 °F,90%,29.83 in,10.0 mi,WSW,6.9 mph,  -,0.00 in,	 ,Overcast
+6:19 AM,59.0 °F,55.9 °F,90%,29.85 in,10.0 mi,SW,6.9 mph,  -,N/A,	 ,Mostly Cloudy
+6:51 AM,60.1 °F,55.9 °F,86%,29.84 in,10.0 mi,WSW,8.1 mph,  -,N/A,	 ,Overcast
+7:35 AM,61.0 °F,57.0 °F,87%,29.87 in,10.0 mi,WSW,13.8 mph,  -,N/A,	 ,Overcast
+7:51 AM,61.0 °F,57.0 °F,87%,29.87 in,10.0 mi,WSW,12.7 mph,  -,N/A,	 ,Overcast
+8:38 AM,62.1 °F,57.9 °F,86%,29.89 in,10.0 mi,West,15.0 mph,21.9 mph,N/A,	 ,Overcast
+8:51 AM,62.1 °F,57.9 °F,86%,29.89 in,10.0 mi,West,16.1 mph,  -,N/A,	 ,Overcast
+9:51 AM,64.0 °F,60.1 °F,87%,29.91 in,10.0 mi,West,15.0 mph,  -,N/A,	 ,Overcast
+10:11 AM,64.9 °F,60.1 °F,84%,29.92 in,10.0 mi,West,12.7 mph,  -,N/A,	 ,Overcast
+10:51 AM,66.0 °F,59.0 °F,78%,29.93 in,10.0 mi,WNW,17.3 mph,23.0 mph,N/A,	 ,Mostly Cloudy
+11:21 AM,66.9 °F,57.9 °F,73%,29.94 in,10.0 mi,West,12.7 mph,  -,N/A,	 ,Mostly Cloudy
+11:51 AM,66.9 °F,57.9 °F,73%,29.94 in,10.0 mi,WNW,13.8 mph,24.2 mph,N/A,	 ,Mostly Cloudy
+12:51 PM,70.0 °F,53.1 °F,55%,29.94 in,10.0 mi,NW,11.5 mph,  -,N/A,	 ,Mostly Cloudy
+1:51 PM,72.0 °F,54.0 °F,53%,29.95 in,10.0 mi,WNW,15.0 mph,24.2 mph,N/A,	 ,Mostly Cloudy
+2:51 PM,72.0 °F,45.0 °F,38%,29.95 in,10.0 mi,WNW,19.6 mph,  -,N/A,	 ,Mostly Cloudy
+3:51 PM,71.1 °F,39.9 °F,32%,29.97 in,10.0 mi,NW,18.4 mph,28.8 mph,N/A,	 ,Scattered Clouds
+4:51 PM,71.1 °F,39.0 °F,31%,29.98 in,10.0 mi,WNW,17.3 mph,25.3 mph,N/A,	 ,Scattered Clouds
+5:51 PM,70.0 °F,37.0 °F,30%,29.98 in,10.0 mi,West,15.0 mph,  -,N/A,	 ,Mostly Cloudy
+6:51 PM,69.1 °F,34.0 °F,27%,29.99 in,10.0 mi,NW,13.8 mph,  -,N/A,	 ,Mostly Cloudy
+7:51 PM,66.0 °F,30.9 °F,27%,30.03 in,10.0 mi,NW,10.4 mph,  -,N/A,	 ,Mostly Cloudy
+8:51 PM,60.1 °F,35.1 °F,39%,30.06 in,10.0 mi,NNW,4.6 mph,  -,N/A,	 ,Mostly Cloudy
+9:51 PM,61.0 °F,33.1 °F,35%,30.07 in,10.0 mi,NNW,9.2 mph,  -,N/A,	 ,Mostly Cloudy
+10:51 PM,57.9 °F,34.0 °F,41%,30.09 in,10.0 mi,NNW,8.1 mph,  -,N/A,	 ,Mostly Cloudy
+11:51 PM,55.9 °F,35.1 °F,45%,30.10 in,10.0 mi,NW,5.8 mph,  -,N/A,	 ,Mostly Cloudy
