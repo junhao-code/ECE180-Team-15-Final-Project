@@ -1,0 +1,26 @@
+Time (CST),Temp.,Windchill,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,,
+12:51 AM,10.9 °F,0.2 °F,1.9 °F,67%,30.44 in,10.0 mi,WNW,6.9 mph,  -,N/A,	 ,Clear
+1:51 AM,9.0 °F,-3.2 °F,1.0 °F,70%,30.48 in,10.0 mi,NW,8.1 mph,  -,N/A,	 ,Clear
+2:51 AM,8.1 °F,1.4 °F,-0.0 °F,70%,30.50 in,10.0 mi,WNW,3.5 mph,  -,N/A,	 ,Clear
+3:51 AM,6.1 °F,-2.8 °F,-0.9 °F,73%,30.53 in,10.0 mi,WNW,4.6 mph,  -,N/A,	 ,Clear
+4:51 AM,7.0 °F,-3.3 °F,-0.9 °F,70%,30.57 in,10.0 mi,NW,5.8 mph,  -,N/A,	 ,Clear
+5:51 AM,5.0 °F,-9.1 °F,-0.9 °F,76%,30.61 in,10.0 mi,NNW,9.2 mph,  -,N/A,	 ,Clear
+6:51 AM,10.0 °F,-3.7 °F,1.0 °F,67%,30.64 in,10.0 mi,North,10.4 mph,  -,N/A,	 ,Clear
+7:51 AM,12.0 °F,-0.4 °F,1.0 °F,61%,30.67 in,10.0 mi,North,9.2 mph,  -,N/A,	 ,Partly Cloudy
+8:51 AM,14.0 °F,3.9 °F,1.9 °F,59%,30.70 in,10.0 mi,North,6.9 mph,  -,N/A,	 ,Partly Cloudy
+9:51 AM,17.1 °F,6.6 °F,3.0 °F,54%,30.73 in,10.0 mi,North,8.1 mph,  -,N/A,	 ,Partly Cloudy
+10:51 AM,21.9 °F,14.5 °F,3.0 °F,44%,30.74 in,10.0 mi,North,5.8 mph,  -,N/A,	 ,Partly Cloudy
+11:51 AM,21.9 °F,13.4 °F,3.0 °F,44%,30.74 in,10.0 mi,North,6.9 mph,  -,N/A,	 ,Partly Cloudy
+12:51 PM,24.1 °F,15.2 °F,1.9 °F,38%,30.74 in,10.0 mi,North,8.1 mph,  -,N/A,	 ,Partly Cloudy
+1:51 PM,25.0 °F,17.1 °F,1.0 °F,36%,30.74 in,10.0 mi,North,6.9 mph,  -,N/A,	 ,Scattered Clouds
+2:51 PM,27.0 °F,20.5 °F,1.9 °F,34%,30.75 in,10.0 mi,North,5.8 mph,  -,N/A,	 ,Mostly Cloudy
+3:51 PM,24.1 °F,16.0 °F,5.0 °F,44%,30.76 in,10.0 mi,NE,6.9 mph,  -,N/A,	 ,Overcast
+4:51 PM,21.9 °F,12.5 °F,5.0 °F,48%,30.77 in,10.0 mi,ENE,8.1 mph,  -,N/A,	 ,Overcast
+5:51 PM,21.0 °F,12.4 °F,3.9 °F,48%,30.79 in,10.0 mi,ENE,6.9 mph,  -,N/A,	 ,Overcast
+6:51 PM,19.9 °F,12.1 °F,6.1 °F,55%,30.79 in,10.0 mi,NNE,5.8 mph,  -,N/A,	 ,Overcast
+7:51 PM,14.0 °F,8.2 °F,3.9 °F,64%,30.80 in,10.0 mi,North,3.5 mph,  -,N/A,	 ,Overcast
+8:51 PM,12.9 °F,  -,5.0 °F,71%,30.79 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Overcast
+9:51 PM,15.1 °F,5.2 °F,5.0 °F,64%,30.79 in,10.0 mi,NNE,6.9 mph,  -,N/A,	 ,Overcast
+10:51 PM,12.9 °F,  -,3.0 °F,65%,30.79 in,10.0 mi,Calm,Calm,  -,N/A,	 ,Mostly Cloudy
+11:51 PM,12.9 °F,2.6 °F,3.0 °F,65%,30.76 in,10.0 mi,North,6.9 mph,  -,N/A,	 ,Overcast

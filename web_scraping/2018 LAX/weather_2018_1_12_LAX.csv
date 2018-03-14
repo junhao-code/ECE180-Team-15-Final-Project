@@ -1,0 +1,34 @@
+Time (PST),Temp.,Dew Point,Humidity,Pressure,Visibility,Wind Dir,Wind Speed,Gust Speed,Precip,Events,Conditions
+,,,,,,,,,,,
+12:53 AM,55.0 °F,55.0 °F,100%,30.19 in,7.0 mi,East,3.5 mph,  -,N/A,Fog,Patches of Fog
+1:53 AM,55.9 °F,55.9 °F,100%,30.19 in,5.0 mi,Calm,Calm,  -,N/A,Fog,Patches of Fog
+2:46 AM,54.0 °F,54.0 °F,100%,30.19 in,1.5 mi,Calm,Calm,  -,N/A,Fog,Patches of Fog
+2:53 AM,55.0 °F,55.0 °F,100%,30.18 in,1.5 mi,Calm,Calm,  -,N/A,Fog,Patches of Fog
+3:21 AM,54.0 °F,54.0 °F,100%,30.18 in,1.2 mi,East,3.5 mph,  -,N/A,Fog,Patches of Fog
+3:50 AM,51.8 °F,51.8 °F,100%,30.17 in,0.5 mi,East,3.5 mph,  -,N/A,Fog,Fog
+3:53 AM,52.0 °F,52.0 °F,100%,30.17 in,0.5 mi,ENE,3.5 mph,  -,N/A,Fog,Fog
+4:01 AM,53.1 °F,53.1 °F,100%,30.17 in,0.2 mi,ENE,3.5 mph,  -,N/A,Fog,Fog
+4:53 AM,54.0 °F,54.0 °F,100%,30.16 in,0.1 mi,ESE,3.5 mph,  -,N/A,Fog,Fog
+5:53 AM,54.0 °F,54.0 °F,100%,30.17 in,0.1 mi,Calm,Calm,  -,N/A,Fog,Fog
+6:07 AM,53.1 °F,53.1 °F,100%,30.17 in,7.0 mi,East,3.5 mph,  -,N/A,Fog,Shallow Fog
+6:11 AM,52.0 °F,52.0 °F,100%,30.18 in,7.0 mi,ENE,3.5 mph,  -,N/A,Fog,Shallow Fog
+6:53 AM,52.0 °F,52.0 °F,100%,30.19 in,8.0 mi,ENE,3.5 mph,  -,N/A,Fog,Shallow Fog
+7:53 AM,55.9 °F,53.1 °F,90%,30.19 in,9.0 mi,Calm,Calm,  -,N/A,	 ,Mostly Cloudy
+8:53 AM,60.1 °F,52.0 °F,75%,30.20 in,9.0 mi,Calm,Calm,  -,N/A,	 ,Mostly Cloudy
+9:22 AM,59.0 °F,55.0 °F,87%,30.21 in,7.0 mi,West,6.9 mph,  -,N/A,Fog,Shallow Fog
+9:53 AM,59.0 °F,57.0 °F,93%,30.21 in,7.0 mi,West,4.6 mph,  -,N/A,Fog,Patches of Fog
+10:53 AM,60.1 °F,57.0 °F,90%,30.19 in,6.0 mi,SW,5.8 mph,  -,N/A,Fog,Patches of Fog
+11:53 AM,63.0 °F,57.0 °F,81%,30.14 in,6.0 mi,WSW,6.9 mph,  -,N/A,Fog,Patches of Fog
+12:53 PM,63.0 °F,57.0 °F,81%,30.12 in,5.0 mi,WSW,9.2 mph,  -,N/A,Fog,Patches of Fog
+1:53 PM,61.0 °F,55.9 °F,83%,30.11 in,4.0 mi,West,8.1 mph,  -,N/A,Fog,Patches of Fog
+2:53 PM,60.1 °F,55.9 °F,86%,30.10 in,4.0 mi,West,6.9 mph,  -,N/A,Fog,Patches of Fog
+3:53 PM,60.1 °F,55.9 °F,86%,30.09 in,4.0 mi,West,6.9 mph,  -,N/A,Fog,Patches of Fog
+4:53 PM,57.2 °F,55.4 °F,94%,30.09 in,0.5 mi,West,6.9 mph,  -,N/A,Fog,Fog
+5:53 PM,57.0 °F,57.0 °F,100%,30.09 in,0.5 mi,Calm,Calm,  -,N/A,Fog,Fog
+6:33 PM,57.9 °F,57.0 °F,97%,30.09 in,3.0 mi,Variable,3.5 mph,  -,N/A,	 ,Scattered Clouds
+6:53 PM,57.9 °F,57.0 °F,97%,30.09 in,4.0 mi,Calm,Calm,  -,N/A,Fog,Patches of Fog
+7:53 PM,57.9 °F,55.9 °F,93%,30.10 in,5.0 mi,Calm,Calm,  -,N/A,Fog,Patches of Fog
+8:53 PM,57.9 °F,55.0 °F,90%,30.11 in,7.0 mi,Calm,Calm,  -,N/A,Fog,Patches of Fog
+9:53 PM,60.1 °F,55.9 °F,86%,30.12 in,8.0 mi,Calm,Calm,  -,N/A,	 ,Partly Cloudy
+10:53 PM,63.0 °F,54.0 °F,72%,30.12 in,10.0 mi,Variable,3.5 mph,  -,N/A,	 ,Partly Cloudy
+11:53 PM,60.1 °F,48.9 °F,67%,30.12 in,10.0 mi,East,4.6 mph,  -,N/A,	 ,Scattered Clouds
